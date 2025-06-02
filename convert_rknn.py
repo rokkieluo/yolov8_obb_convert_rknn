@@ -9,7 +9,7 @@ from rknn.api import RKNN
 import math
 
 ONNX_MODEL = './yolov8n-obb.onnx'
-RKNN_MODEL = './yyolov8n-obb.rknn'
+RKNN_MODEL = './yolov8n-obb.rknn'
 DATASET = './dataset.txt'
 
 QUANTIZE_ON = True
